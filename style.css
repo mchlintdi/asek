@@ -16,10 +16,9 @@ header {
     margin: 20px;
     margin-left: 5px;
     margin-top: 15px;
-    box-shadow:  1 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 1 2px 8px rgba(0, 0, 0, 0.1);
     gap: 40px;
 } 
-
 nav{
     padding: 15px;
 }
@@ -43,24 +42,6 @@ section.logo{
 .logo img{
     width: 100%;
     height: auto;
-}
-section.home{
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
-    height: 600px;
-} 
-section.about{
-    background-color: black; 
-    height: 600px;
-}
-section.contact{
-    background-color: black; 
-    height: 600px;
-} 
-footer {
-    background-color: black;
-    height:50px;
 }
 section.home{
     height: 600px;
@@ -145,11 +126,11 @@ section.about img{
 section.product {
     background-image: url("bg.png");
     background-size: cover;
-    background-size: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: auto;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 section.product .container {
     justify-content: center;
@@ -173,12 +154,10 @@ section.product .container .card {
     box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
     border-radius: 10px;
 }
-
 section.product .container .card img {
     width: 100%;
     border-radius: 8px;
 }
-
 section.product .container .card a {
     white-space: nowrap;
     padding: 10px 20px;
@@ -193,8 +172,6 @@ section.product .container .card a {
     border-radius: 20px;
     display: inline-block;
 }
-
-
 @keyframes goyang{
     0%{
         transform: rotate(0deg);
@@ -217,13 +194,11 @@ section.product .container .card a {
     transition: 0.6s;
     animation: goyang 1s;
 }
-
 section.contact{
     background-color: #f2ebe2;
     height: 600px;
     justify-content: center;
     padding-top: 10px;
-
 }
 .card{
     font-size: 5px;
@@ -240,8 +215,7 @@ section.contact{
     margin-left: 36%;
     margin-top: 10%;
 }
-
- footer{
+footer{
     background-color: #9ccb69;
     height: 40px;
     padding-bottom: 4px;
